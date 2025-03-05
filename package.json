@@ -1,0 +1,19 @@
+{
+  "name": "users_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon"
+  },
+  "dependencies": {
+    "consola": "^3.4.0",
+    "inquirer": "^12.4.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9"
+  }
+}
