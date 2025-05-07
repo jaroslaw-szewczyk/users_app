@@ -18,30 +18,6 @@ UsersApp is a simple console application created as part of the Kodilla bootcamp
 - **Consola** – colored and formatted logging  
 - Performance measurement using decorators (`measurePerformance`)  
 
-## 📁 Project Structure
-
-- `index.ts` – main logic and menu handling  
-- `UsersData.ts` – user data management (add, edit, remove)  
-- `Message.ts` – formatted message display  
-- `measurePerformance.ts` – method execution time measurement  
-
-## ✅ Example Output
-
-```
-Welcome to the UsersApp!
-====================================
-list – show all users
-add – add new user to the list
-edit – edit user
-remove – remove user from the list
-quit – quit the app
-
-How can I help you? add
-Enter name: Anna
-Enter age: 28
-✔ User has been successfully added!
-```
-
 ## 🚀 Getting Started
 
 1. Clone the repository:
@@ -52,29 +28,11 @@ Enter age: 28
 
 2. Install dependencies:
    ```bash
-   yarn
+   yarn install
    ```
 
 3. Run the app (e.g. using `ts-node`):
    ```bash
-   yarn ts-node index.ts
-   ```
-
-> If you don't have `ts-node` installed globally, you can install it with:
-> ```bash
-> yarn global add ts-node typescript
-> ```
-
-## 📚 Learning Goals
-
-This project was created to:
-- Practice TypeScript basics
-- Work with command-line input/output
-- Learn about classes, decorators, and state management
-- Handle data validation and error messages
-
----
+   yarn start
 
 ✅ Project completed as part of the Kodilla bootcamp  
-🎓 Author: [Your Name]  
-📅 Year: 2025
